@@ -1,0 +1,16 @@
+Beginner-friendly GitHub upload instructions:
+
+1) Create a GitHub account at https://github.com if you don't have one.
+2) Click the + icon -> New repository. Name it 'firekirin-platform'.
+3) On the new repo page, click 'Add file' -> 'Upload files'.
+4) Drag the contents of the extracted folder (README.md, client/, server/) into the upload area.
+5) Commit changes at the bottom. That's it!
+
+Optional: To keep editing locally, install Git (https://git-scm.com) and run:
+
+git clone https://github.com/your-username/firekirin-platform.git
+cd firekirin-platform
+# make changes locally, then:
+git add .
+git commit -m "My changes"
+git push origin main
